@@ -13,7 +13,7 @@ FirebaseCrashlytics iOS and Android Dependencies.
   <androidPackages>
     <androidPackage spec="com.crashlytics.sdk.android:crashlytics:2.9.9">
     </androidPackage>
-    <androidPackage spec="com.google.firebase:firebase-crashlytics-unity:6.14.0">
+    <androidPackage spec="com.google.firebase:firebase-crashlytics-unity:6.14.1">
       <repositories>
         <repository>Assets/Firebase/m2repository</repository>
       </repositories>
