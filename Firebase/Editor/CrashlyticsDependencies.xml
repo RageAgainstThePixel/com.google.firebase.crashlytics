@@ -4,16 +4,19 @@ FirebaseCrashlytics iOS and Android Dependencies.
 -->
 
 <dependencies>
+  <remoteSwiftPackage url="https://github.com/firebase/firebase-ios-sdk.git" version="12.8.0">
+    <swiftPackage name="FirebaseCrashlytics" replacesPod="Firebase/Crashlytics"/>
+  </remoteSwiftPackage>
   <iosPods>
-    <iosPod name="Firebase/Crashlytics" version="12.6.0" minTargetSdk="15.0">
+    <iosPod name="Firebase/Crashlytics" version="12.8.0" minTargetSdk="15.0">
     </iosPod>
   </iosPods>
   <androidPackages>
-    <androidPackage spec="com.google.firebase:firebase-crashlytics-ndk:20.0.3">
+    <androidPackage spec="com.google.firebase:firebase-crashlytics-ndk:20.0.4">
     </androidPackage>
     <androidPackage spec="com.google.firebase:firebase-analytics:23.0.0">
     </androidPackage>
-    <androidPackage spec="com.google.firebase:firebase-crashlytics-unity:13.6.0">
+    <androidPackage spec="com.google.firebase:firebase-crashlytics-unity:13.7.0">
       <repositories>
         <repository>Assets/Firebase/m2repository</repository>
       </repositories>
