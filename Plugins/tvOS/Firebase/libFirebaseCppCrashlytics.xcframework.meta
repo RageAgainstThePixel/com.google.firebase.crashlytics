@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: c9a5f5c47ed44459ae2c09b918d44344
+guid: b80ece87d13841d5885b188643dc5a38
 labels:
 - gvh
-- gvh_version-13.17.0
-- gvhp_exportpath-Plugins/iOS/Firebase/libFirebaseCppCrashlytics.a
+- gvh_version-14.0.0
+- gvhp_exportpath-Plugins/tvOS/Firebase/libFirebaseCppCrashlytics.xcframework
 timeCreated: 1480838400
 PluginImporter:
   serializedVersion: 1
@@ -67,12 +67,12 @@ PluginImporter:
       settings:
         CPU: AnyCPU
     iOS:
-      enabled: 1
+      enabled: 0
       settings:
         CompileFlags:
         FrameworkDependencies:
     tvOS:
-      enabled: 0
+      enabled: 1
       settings:
         CompileFlags:
         FrameworkDependencies:
